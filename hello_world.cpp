@@ -1,10 +1,10 @@
 #include <iostream>
-
+using namespace std;
 int main() {
-	std:string name;
-	std:cout << "input name: ";
-	std::cin >> age;
-	std:cout << std:endl;
-	std::cout << "name" << name << std:endl;
+	string name;
+	cout << "input name: ";
+	cin >> name;
+	cout << endl;
+	cout << "name: " << name << endl;
     return 0;
 }
