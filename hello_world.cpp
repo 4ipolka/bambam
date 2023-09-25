@@ -1,4 +1,5 @@
 #include <iostream>
+//derevo
 int main() {
 	std::string name;
 	std::cout << "input name: ";
