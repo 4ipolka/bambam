@@ -1,10 +1,9 @@
 #include <iostream>
-using namespace std;
 int main() {
-	string name;
-	cout << "input name: ";
-	cin >> name;
-	cout << endl;
-	cout << "name: " << name << endl;
+	std::string name;
+	std::cout << "input name: ";
+	std::cin >> name;
+	std::cout << std::endl;
+	std::cout << "name: " << name << std::endl;
     return 0;
 }
