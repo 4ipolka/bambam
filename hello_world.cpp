@@ -1,6 +1,10 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello World!";
+	std:string name;
+	std:cout << "input name: ";
+	std::cin >> age;
+	std:cout << std:endl;
+	std::cout << "name" << name << std:endl;
     return 0;
 }
